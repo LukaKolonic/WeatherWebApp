@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "GaretBook";
+  src: url("../../font/Garet-Book.otf") format("opentype");
+}
+.widget {
+  width: 25.875rem;
+  height: 12.5rem;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-family: "GaretBook";
+  text-align: center;
+  box-shadow: 0px 2px 15px -1px #c8cad1;
+  border-radius: 15px;
+  color: #191d2e;
+  font-weight: bold;
+}
+.widget.clear {
+  background-image: url("../../assets/clear.gif");
+}
+.widget.clouds {
+  background-image: url("../../assets/clouds.gif");
+}
+.widget.rain {
+  background-image: url("../../assets/rain.gif");
+}
+.widget.snow {
+  background-image: url("../assets/snow.gif");
+}
+.widget p {
+  margin: 0.625rem 0;
+  padding: 1.25rem;
+}
+.widget .currentLocation {
+  position: absolute;
+  width: 41.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -3.125rem;
+}
+.widget .city {
+  position: absolute;
+  width: 31.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -0.3125rem;
+}
+.widget .temperature {
+  position: absolute;
+  width: 31.25rem;
+  top: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3.5rem;
+}
+.widget .maxTemp {
+  position: absolute;
+  right: 0.625rem;
+  top: 8.125rem;
+}
+.widget .minTemp {
+  position: absolute;
+  left: 0.625rem;
+  top: 8.125rem;
+}
+.widget .weather {
+  position: absolute;
+  left: 10.625rem;
+  top: 6.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=Widget.css.map */

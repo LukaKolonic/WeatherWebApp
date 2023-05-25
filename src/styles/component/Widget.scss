@@ -1,0 +1,84 @@
+@import "../abstracts/Variables.scss";
+@import "../abstracts/Typography.scss";
+
+.widget {
+  width: 25.875rem;
+  height: 12.5rem;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-family: "GaretBook";
+  text-align: center;
+  box-shadow: 0px 2px 15px -1px #c8cad1;
+  border-radius: 15px;
+  color: $black;
+  font-weight: bold;
+
+  &.clear {
+    background-image: url("../../assets/clear.gif");
+  }
+
+  &.clouds {
+    background-image: url("../../assets/clouds.gif");
+  }
+
+  &.rain {
+    background-image: url("../../assets/rain.gif");
+  }
+
+  &.snow {
+    background-image: url("../assets/snow.gif");
+  }
+
+  p {
+    margin: 0.625rem 0;
+    padding: 1.25rem;
+  }
+
+  .currentLocation {
+    position: absolute;
+    width: 41.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -3.125rem;
+  }
+
+  .city {
+    position: absolute;
+    width: 31.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -0.3125rem;
+  }
+
+  .temperature {
+    position: absolute;
+    width: 31.25rem;
+    top: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
+  }
+
+  .maxTemp {
+    position: absolute;
+    right: 0.625rem;
+    top: 8.125rem;
+  }
+
+  .minTemp {
+    position: absolute;
+    left: 0.625rem;
+    top: 8.125rem;
+  }
+
+  .weather {
+    position: absolute;
+    left: 10.625rem;
+    top: 6.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

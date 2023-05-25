@@ -1,0 +1,41 @@
+.forecast-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.625rem;
+  border: 1px solid #f0f1f3;
+  border-radius: 4px;
+
+  .date {
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+  }
+
+  .temperature {
+    margin-bottom: 0.625rem;
+    text-align: center;
+  }
+
+  .temp {
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    top: -0.625rem;
+  }
+
+  .min-max {
+    position: relative;
+    top: -0.625rem;
+    width: 6.25rem;
+  }
+
+  .weather-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weather-description {
+    margin-top: 0.3125rem;
+  }
+}

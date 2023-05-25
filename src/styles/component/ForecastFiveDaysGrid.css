@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "GaretBook";
+  src: url("../../font/Garet-Book.otf") format("opentype");
+}
+.title {
+  position: relative;
+  top: 14rem;
+  left: -6.85rem;
+  font-family: "GaretBook";
+}
+
+.forecast-grid {
+  position: relative;
+  width: 44.375rem;
+  top: 18.75rem;
+  right: 44.25rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  box-shadow: 1px 1px 1px -1px transparent;
+  border-radius: 15px;
+  font-family: "GaretBook";
+}
+
+.date-dropdown {
+  position: absolute;
+  top: 6.7rem;
+  left: -31.5rem;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-family: "GaretBook";
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  position: absolute;
+  background-color: #98cbfa;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "GaretBook";
+  width: 44.375rem;
+  top: 2rem;
+  white-space: nowrap; /* Dodajte ovo */
+}
+
+.dropdown-list.open {
+  display: block;
+}
+
+.dropdown-list li {
+  display: inline-block; /* Promijenite na inline-block */
+  padding: 0.5rem 0.9rem;
+}
+
+.dropdown-list button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-list button.active {
+  font-weight: bold;
+}/*# sourceMappingURL=ForecastFiveDaysGrid.css.map */

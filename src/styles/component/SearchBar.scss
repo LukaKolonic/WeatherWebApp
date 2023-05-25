@@ -1,0 +1,46 @@
+@import "../abstracts/Variables.scss";
+@import "../abstracts/Typography.scss";
+
+.search {
+  position: relative;
+  background: $white;
+  top: 19.6875rem;
+  left: 47.1875rem;
+  box-shadow: 0px 1px 20px -1px #c8cad1;
+  border-radius: 0.625rem;
+  height: 3.125rem;
+  width: 412px;
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+
+  .textSearch {
+    width: 49.375rem;
+    height: 1.25rem;
+    margin-left: 0.625rem;
+    top: 0.9375rem;
+    font-size: 15px;
+    line-height: 1.25rem;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    border: none;
+  }
+
+  .textSearch:focus {
+    outline: none;
+  }
+
+  .btnSearch {
+    position: absolute;
+    height: 2.5rem;
+    width: 4.5rem;
+    left: 20.8rem;
+    border-radius: 6px;
+    font-size: 15px;
+    text-align: center;
+    color: $white;
+    font-weight: bold;
+    border: none;
+    background-color: $skyColor;
+  }
+}
